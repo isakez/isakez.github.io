@@ -4687,3 +4687,18 @@ input, select, textarea {
 		}
 
 	}
+
+	.profile-pic-container {
+		width: 200px; /* Tamaño deseado del contenedor */
+		height: 200px; /* Tamaño deseado del contenedor */
+		border-radius: 50%; /* Bordar redondeados para hacer un círculo */
+		overflow: hidden; /* Ocultar partes de la imagen que sobrepasen el contenedor */
+		margin: 0 auto 20px; /* Ajustar márgenes */
+	}
+	
+	.profile-pic {
+		width: 100%; /* Asegurar que la imagen ocupe todo el espacio del contenedor */
+		height: auto; /* Ajustar altura automáticamente */
+		display: block; /* Evitar espacios en blanco debajo de la imagen */
+	}
+	
